@@ -1,8 +1,32 @@
-# React + Vite
+# Customer Form Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based customer form application that allows users to input customer details, including PAN card, full name, email, mobile number, and multiple addresses. The application stores the customer data in local storage for persistence and provides basic validation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Input fields for PAN card, full name, email, mobile number, and addresses.
+- Ability to add multiple addresses (up to 10).
+- Validation for input fields.
+- Displays a success message upon form submission.
+- Stores customer data in local storage.
+- Reads customer data from local storage and displays it in a list.
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- Axios (for API calls)
+- Local Storage
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
