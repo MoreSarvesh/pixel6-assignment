@@ -24,9 +24,6 @@ This is a React-based customer form application that allows users to input custo
 
 - Node.js and npm installed on your machine.
 
-### Installation
+  ```
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
+  ```
