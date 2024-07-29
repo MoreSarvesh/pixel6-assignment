@@ -23,7 +23,3 @@ This is a React-based customer form application that allows users to input custo
 ### Prerequisites
 
 - Node.js and npm installed on your machine.
-
-  ```
-
-  ```
