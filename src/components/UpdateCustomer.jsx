@@ -100,15 +100,18 @@ const UpdateCustomer = ({
             <div>
               Mobile Number:<span className="text-red-600">*</span>
             </div>
-            <input
-              type="text"
-              name="mobile"
-              className="border-2 border-gray-300 rounded-md p-2 mt-1 focus:outline-none focus:border-blue-500"
-              maxLength={10}
-              value={formData.mobile}
-              onChange={handleFormDataChange}
-              required
-            />
+            <div className="border-2 bg-white border-gray-300 rounded-md p-2 mt-1 flex items-center focus-within:border-blue-500">
+              <span className="text-gray-600">+91</span>
+              <input
+                type="text"
+                name="mobile"
+                maxLength={10}
+                value={formData.mobile}
+                onChange={handleFormDataChange}
+                className="w-full ml-2 focus:outline-none focus:border-blue-500 border-none"
+                required
+              />
+            </div>
           </label>
           {formData.addresses.map((address, index) => (
             <AddressFields
